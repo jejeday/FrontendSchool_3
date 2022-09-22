@@ -1,0 +1,117 @@
+@import "reset.css";
+
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+/* resets */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* layout */
+.wrapper {
+    border: 10px solid red; /*이거 나중에 삭제 */
+    width: 765px;
+    margin: 0 auto;
+}
+
+/* contents */
+.page-center {
+    background-color: #5b2386;
+    color: #ffffff;
+    padding: 120px 0;
+}
+
+.section-header {
+    padding-bottom: 102px;
+    display: flex; /*굳이?*/
+}
+
+.section-title {
+    background-image: url("img/clock.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 221px 225px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-title {
+    width: 564px;
+    height: 112px;
+    margin: 76px auto;
+}
+
+.section-description {
+    background-color: brown;
+    margin: 0 auto;
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+}
+
+.plan {
+    background-color: skyblue;
+    color: pink;
+}
+
+.typing-plan {
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.btn-plan-result {
+    background-color: salmon;
+    margin: 0 auto;
+}
+
+.output-result {
+    background-color: rosybrown;
+    margin: 0 auto;
+}
+
+.btn-lists {
+    background-color: red;
+    margin: 0 auto;
+}
+
+.section-footer {
+    background-color: royalblue;
+    margin: 0px auto;
+    padding: 3px 0px;
+
+}
+
+.section-saying {
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 36px;
+    color: #f5df4d;
+    text-align: center;
+}
